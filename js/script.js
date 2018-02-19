@@ -7,7 +7,9 @@ var targetButton = document.getElementsByClassName('button');
 	
 console.log(targetButton);
 console.log(targetButton.length);
-for ( var i = 0 ; i < (targetButton.length); i++) {
-	var x = targetButton[+i].innerText;
+var numberButtons = targetButton.length;
+console.log(numberButtons);
+for ( var i = 0 ; i < numberButtons ; i++) {
+	var x = targetButton[i].innerText;
 		alert(x);
 }
